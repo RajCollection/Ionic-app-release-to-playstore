@@ -1,8 +1,8 @@
 # Ionic-app-release-to-playstore
 
-##App release to google play store steps:
+## App release to google play store steps:
 
-###App side:
+### App side:
 
 1.	Run the command to remove console logs plugin from yout app
 
@@ -12,7 +12,6 @@ Or
 
 > cordova plugin rm cordova-plugin-console
 
--------
 2.	Generate unsigned apk
 
 > ionic cordova build --release android
