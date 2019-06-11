@@ -47,11 +47,10 @@ or
 
 > ionic build android –release
 
-------------------------
 
 ## Playstore side:
 
-###Note: all account setup should be ready 
+### Note: all account setup should be ready 
 
 1.	Go to app releases,
 2.	Create app
@@ -63,4 +62,4 @@ or
 
 Click on Start rollout to production button
 
-### Done
+### -------------------------- Done ------------------------------------
