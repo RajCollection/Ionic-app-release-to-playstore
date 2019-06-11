@@ -1,24 +1,25 @@
 # Ionic-app-release-to-playstore
 
-App release to google play store steps:
+##App release to google play store steps:
 
-App side:
+###App side:
+
 1.	Run the command to remove console logs plugin from yout app
 
-ionic cordova plugin rm cordova-plugin-console
+> ionic cordova plugin rm cordova-plugin-console
 
 Or
 
-cordova plugin rm cordova-plugin-console
+> cordova plugin rm cordova-plugin-console
 
 -------
 2.	Generate unsigned apk
 
-ionic cordova build --release android
+> ionic cordova build --release android
 
 or
 
-ionic build android –release
+> ionic build android –release
 
 -------
 3.	Go to app signing section in play store account, get app play_store_key
@@ -27,7 +28,7 @@ Replace this key in your manifest.json file of app
 -----
 4.	Generate signed apk, run command
 
-keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+> keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
 
 Enter all the fields, name, alias, organigation unit, organigation name, location, and password
 
