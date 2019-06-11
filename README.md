@@ -34,9 +34,7 @@ it will generate one .keystore file, copy this file in to platform/android folde
 
 Enter your app name, alias, password which you given while generating keystore 
 
-Download release.signin.properties file from  https://github.com/docketrun/app-build
-
-Place it in platform/android folder
+Download release.signin.properties file and Place it in platform/android folder
 
 
 ### 5.	Run release command again
